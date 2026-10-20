@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b0d0d" />
+  <meta property="og:title" content="Hastaraj Rai | Frontend Developer" />
+  <meta property="og:image" content="./assets/img/hastaraj-rai.jpg" />
+  <link rel="preload" as="image" href="./assets/img/hastaraj-rai.webp" type="image/webp" />
+  <meta name="description" content="Hastaraj Rai — frontend developer with 4+ years of web development experience in Japan and Nepal." />
+  <meta name="robots" content="index, follow" />
+  <title>Hastaraj Rai | Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/app.css" media="all" />
+</head>
+<body>
+  <main id="main">
+    <header class="site-header" id="header">
+      <a href="#home" class="brand" aria-label="Hastaraj Rai home"><span class="brand-mark">HR</span><span>HASTARAJ RAI<span class="brand-dot">.</span></span></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#stack">Stack</a><a href="#work">Projects</a><a href="#experience">Experience</a>
+      </nav>
+      <a class="header-cta" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+      <div class="mobile-nav">
+        <button class="mobile-menu-button" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu"><span aria-hidden="true">☰</span></button>
+        <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" hidden>
+          <a href="#about">About</a><a href="#stack">Stack</a><a href="#work">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy">
+        <div class="availability"><span class="status-pulse"></span> OPEN TO THE RIGHT OPPORTUNITY</div>
+        <p class="hero-kicker">FRONTEND DEVELOPER · WEB DEVELOPER</p>
+        <h1>Building thoughtful<br><span class="muted-heading">web experiences</span><br>that work<span class="accent">.</span></h1>
+        <p class="hero-description">I’m a frontend developer with 4+ years of professional IT experience building and maintaining websites, landing pages, and web platforms. I focus on clean implementation, performance, testing, and reliable delivery.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↘</span></a><a class="button button-secondary" href="#contact">Get in touch <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-meta"><div><span class="meta-label">FOCUS</span><span>Frontend · Web · UI implementation</span></div><div><span class="meta-label">LANGUAGE</span><span>Japanese N2, Nepali native, English</span></div></div>
+      </div>
+      <div class="hero-visual">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <figure class="portrait">
+          <div class="portrait-ring" aria-hidden="true"></div>
+          <div class="portrait-frame">
+            <picture>
+              <source srcset="./assets/img/hastaraj-rai.webp" type="image/webp" />
+              <img src="./assets/img/hastaraj-rai.jpg" alt="Portrait of Hastaraj Rai in a dark suit" width="800" height="999" fetchpriority="high" decoding="async" />
+            </picture>
+          </div>
+          <figcaption class="portrait-tag"><span class="status-pulse"></span><span><b>Hastaraj Rai</b><small>Backend/Frontend Developer</small></span></figcaption>
+        </figure>
+        <div class="code-window" aria-hidden="true"><div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>hastaraj.ts</span><span class="window-lock">TS</span></div>
+          <div class="code-body">
+            <div class="code-line"><span class="line-no">01</span><span><b class="code-purple">const</b> <b class="code-blue">coder</b> = {</span></div>
+            <div class="code-line"><span class="line-no">02</span><span class="indent"><b class="code-green">Name</b>: <b class="code-orange">Hastaraj Rai</b>,</span></div>
+            <div class="code-line"><span class="line-no">03</span><span class="indent"><b class="code-green">Nationality</b>: <b class="code-orange">Nepal</b>,</span></div>
+            <div class="code-line"><span class="line-no">04</span><span class="indent"><b class="code-green">E-Mail</b>: <b class="code-orange">hastaraj16@gmail.com</b>,</span></div>
+            <div class="code-line"><span class="line-no">05</span><span>};</span></div><div class="code-gap"></div>
+            <div class="code-line"><span class="line-no">07</span><span><b class="code-purple">export default</b> <b class="code-blue">coder</b>;</span></div>
+          </div><div class="terminal-strip"><span class="terminal-dot"></span> build successful <span class="terminal-time">0.42s</span></div>
+        </div>
+        <div class="floating-chip chip-top"><span class="chip-icon" aria-hidden="true">▤</span><span><b>Data first</b><small>Thoughtful schemas</small></span></div>
+        <div class="floating-chip chip-bottom"><span class="chip-icon chip-icon-green" aria-hidden="true">✓</span><span><b>Production minded</b><small>Quality over shortcuts</small></span></div>
+        <div class="visual-caption"><span></span> ENGINEERED WITH INTENTION</div>
+        <div class="exp-badge" aria-hidden="true"><b>4+</b><small>years<br>experience</small></div>
+      </div>
+      <!-- <div class="hero-index"><span>01</span><span class="index-line"></span><span>04</span></div> -->
+    </section>
+
+    <section class="trust-strip"><div class="trust-inner"><span class="trust-label">DEVELOPMENT MINDSET</span><span><b class="trust-icon">⌘</b> Maintainable code</span><span><b class="trust-icon">⌁</b> Responsive layouts</span><span><b class="trust-icon">▤</b> Performance & testing</span><span><b class="trust-icon">◎</b> Team collaboration</span></div></section>
+
+    <section class="section-shell content-section about-section" id="about">
+      <div class="section-number">01 / ABOUT</div><div class="about-grid">
+        <div class="section-heading"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Engineering with<br>purpose.</h2></div>
+        <div class="about-content"><p class="about-lead">Good web development is more than turning a design into code. It is about building accessible, responsive, maintainable websites that perform well and support real users.</p>
+          <p class="body-copy">I completed IT-focused vocational education in Japan and have professional frontend development experience at IT companies. My work has included coding from provided designs, code reviews, performance improvements, bug fixes, unit and integration testing, and website maintenance.</p>
+          <div class="about-facts"><div><span class="fact-number">01</span><b>Quality delivery</b><small>Understand requirements before implementation.</small></div><div><span class="fact-number">02</span><b>Performance focus</b><small>Improve page speed and code quality.</small></div><div><span class="fact-number">03</span><b>Team leadership</b><small>Collaborate and support a 7-person project team.</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section" id="stack"><div class="section-shell content-section">
+      <div class="section-number">02 / TOOLKIT</div><div class="section-heading"><p class="eyebrow">TOOLS &amp; TECHNOLOGIES</p><h2>Tools for<br>real-world websites<span class="accent">.</span><span class="accent">.</span></h2><p class="section-description">Technologies listed in my professional work history, including frontend development, CMS platforms, APIs, and design tools.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-card-top"><span class="skill-icon">⌘</span><span class="skill-index">01</span></div><h3>JavaScript</h3><p>Interactive web development</p><div class="skill-rule"><span style="width:65%"></span></div></article>
+        <article class="skill-card"><div class="skill-card-top"><span class="skill-icon">{ }</span><span class="skill-index">02</span></div><h3>React.js</h3><p>Component-based UI</p><div class="skill-rule"><span style="width:65%"></span></div></article>
+        <article class="skill-card"><div class="skill-card-top"><span class="skill-icon">▤</span><span class="skill-index">03</span></div><h3>HTML5 / CSS3</h3><p>Responsive page structure</p><div class="skill-rule"><span style="width:95%"></span></div></article>
+        <article class="skill-card"><div class="skill-card-top"><span class="skill-icon">⇄</span><span class="skill-index">04</span></div><h3>SCSS</h3><p>Maintainable styling</p><div class="skill-rule"><span style="width:90%"></span></div></article>
+        <article class="skill-card"><div class="skill-card-top"><span class="skill-icon">⬡</span><span class="skill-index">05</span></div><h3>WordPress / Shopify</h3><p>CMS &amp; commerce websites</p><div class="skill-rule"><span style="width:68%"></span></div></article>
+        <article class="skill-card"><div class="skill-card-top"><span class="skill-icon">⌘</span><span class="skill-index">06</span></div><h3>PHP / Node.js / REST API</h3><p>Web technologies &amp; integration</p><div class="skill-rule"><span style="width:65%"></span></div></article>
+        <article class="skill-card"><div class="skill-card-top"><span class="skill-icon">⌘</span><span class="skill-index">07</span></div><h3>JAVA / Python</h3><p>Web technologies/Development &amp; PG</p><div class="skill-rule"><span style="width:50%"></span></div></article>
+      </div>
+      <div class="stack-note"><span aria-hidden="true">✳</span><p><b>Always learning.</b> The best tool is the one that solves the real problem clearly and responsibly.</p></div>
+    </div></section>
+
+    <section class="section-shell content-section projects-section" id="work"><div class="section-number">03 / SELECTED WORK</div>
+      <div class="projects-heading"><div class="section-heading"><p class="eyebrow">PROJECTS &amp; CASE STUDIES</p><h2>Designs into<br>working websites<span class="accent">.</span><span class="accent">.</span></h2><p class="section-description">Selected website projects listed in my work history. These examples cover EC, real estate, hotel, and boat-racing websites.</p></div><a class="text-link" href="https://www.alpine-style.jp/" target="_blank" rel="noreferrer">Project links <span aria-hidden="true">↗</span></a></div>
+      <div class="projects-list">
+        <article class="project-card"><div class="project-number">01</div><div class="project-main"><p class="eyebrow">EC PLATFORM</p><h3>Alpine Style</h3><p class="project-description">Website development from design handoff, including responsive implementation, bug fixes, and performance improvements.</p><div class="tag-list"><span>JavaScript</span><span>CSS3</span><span>SCSS</span><span>WordPress</span></div></div><div class="project-aside"><span class="project-status"><i></i> CASE STUDY</span><a href="https://www.alpine-style.jp/" target="_blank" rel="noreferrer" aria-label="View Alpine Style website" class="project-link">↗</a></div></article>
+        <article class="project-card"><div class="project-number">02</div><div class="project-main"><p class="eyebrow">Real Estate</p><h3>Livable</h3><p class="project-description">Real-estate website project included in my professional portfolio of client website work.</p><div class="tag-list"><span>JavaScript</span><span>HTML</span><span>CSS3</span><span>Frontend</span></div></div><div class="project-aside"><span class="project-status"><i></i> CASE STUDY</span><a href="https://www.livable.co.jp/" target="_blank" rel="noreferrer" aria-label="View Livable website" class="project-link">↗</a></div></article>
+        <article class="project-card"><div class="project-number">03</div><div class="project-main"><p class="eyebrow">RACE Information</p><h3>Boat Race</h3><p class="project-description">Website platform project involving coding, testing, bug fixes, and ongoing quality improvements.</p><div class="tag-list"><span>JavaScript</span><span>WordPress</span><span>PHP</span><span>Testing</span></div></div><div class="project-aside"><span class="project-status"><i></i> CASE STUDY</span><a href="https://www.boatrace.jp/" target="_blank" rel="noreferrer" aria-label="View Boat Race website" class="project-link">↗</a></div></article>
+      </div>
+    </section>
+
+    <section class="experience-section" id="experience"><div class="section-shell content-section"><div class="section-number">04 / JOURNEY</div><div class="experience-grid">
+      <div class="section-heading"><p class="eyebrow">EXPERIENCE &amp; SEP 2021 — MAR 2026</p><h2>A foundation<br>for what’s next<span class="accent">.</span></h2><p class="section-description">Keep the details accurate and specific. Recruiters value real responsibilities and outcomes over generic claims.</p></div>
+      <div class="timeline"><article class="timeline-item"><div class="timeline-marker"></div><p class="timeline-period">APR 2026 — PRESENT</p><h3>Sushi Kitchen Staff</h3><p class="timeline-company">株式会社ビリオンフーズ</p><p class="body-copy">Currently working in Japanese food service. Previous professional IT experience includes frontend website development, code review, performance improvements, bug fixes, and unit/integration testing.</p></article>
+      <article class="timeline-item"><div class="timeline-marker"></div><p class="timeline-period">SEP 2021 — MAR 2026</p><h3>Frontend/Backend Developer / Team Lead</h3><p class="timeline-company">Parijat Info Tech</p><p class="body-copy">Developed static and dynamic landing pages for EC, real-estate, and hotel websites. Responsibilities included coding from designs, code reviews, performance improvements, bug fixes, unit/integration testing, and maintenance. Project role: 7-person team / leader.</p></article>
+      <article class="timeline-item"><div class="timeline-marker"></div><p class="timeline-period">APR 2019 — AUG 2021</p><h3>Web Developer</h3><p class="timeline-company">株式会社イミング</p><p class="body-copy">Worked on platforms including a boat-race betting site, car-rental service, school management system, and camera e-commerce website. Used JavaScript, CSS3, WordPress, Java, and PHP; supported testing, bug fixes, and maintenance.</p></article>
+      <article class="timeline-item"><div class="timeline-marker"></div><p class="timeline-period">EDUCATION</p><h3>専門学校ITカレッジ沖縄</h3><p class="timeline-company">Japan</p><p class="body-copy">Completed IT-focused vocational education in Japan. JLPT N2.</p><h3>Good Shepherd IHM (GSIHM)</h3><p class="timeline-company">India</p><p class="body-copy">Completed Culinary Art vocational education in GSIHM, Kalimpong</p></article></div>
+    </div></div></section>
+
+    <section class="contact-section" id="contact"><div class="section-shell contact-inner">
+      <div class="contact-copy"><p class="eyebrow">HAVE A PROJECT IN MIND?</p><h2>Let’s build<br>something <span>useful.</span></h2><p>I’m interested in frontend and web development opportunities where I can contribute my professional experience and continue growing.</p><a class="contact-email" href="mailto:Add your email address"><span aria-hidden="true">✉</span> Add your email address <span aria-hidden="true">↗</span></a><div class="social-links"><a href="https://github.com/hastaraj/" target="_blank" rel="noreferrer">⌘ GitHub <span>↗</span></a><a href="https://linkedin.com/" target="_blank" rel="noreferrer">in LinkedIn <span>↗</span></a></div></div>
+      <div class="contact-form-wrap"><div class="form-heading"><span>01</span><div><h3>Send a message</h3><p>I’ll get back to you as soon as I can.</p></div></div>
+        <form class="contact-form" id="contact-form"><label for="name">YOUR NAME</label><input id="name" name="name" placeholder="Hastaraj" autocomplete="name" required /><label for="email">EMAIL ADDRESS</label><input id="email" name="email" type="email" placeholder="****@company.com" autocomplete="email" required /><label for="message">HOW CAN I HELP?</label><textarea id="message" name="message" placeholder="Tell me a little about your project..." rows="4" required></textarea><button class="button button-primary form-submit" type="submit">Prepare message <span aria-hidden="true">↗</span></button><p class="form-disclaimer">This demo uses your device’s email app; it does not send data to a server.</p><p class="form-disclaimer form-status" id="form-status" role="status" aria-live="polite"></p></form>
+      </div>
+    </div></section>
+
+
+    <footer class="site-footer" id="footer">
+      <a href="#home" class="brand footer-brand"><span class="brand-mark">HR</span><span>HASTARAJ RAI<span class="brand-dot">.</span></span></a>
+      <p>Designed with intention. Built for the web.</p>
+      <a href="#home" class="back-top">BACK TO TOP <span aria-hidden="true">↗</span></a>
+      <span class="copyright">© <span id="current-year"></span> Hastaraj Rai</span>
+    </footer>
+    <script src="./assets/js/app.js"></script>
+  </main>
+</body>
+</html>
+
