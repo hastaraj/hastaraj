@@ -1,4 +1,65 @@
-@@include('@@webRoot/parts/header.html')
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="email=no,telephone=no,address=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow">
+
+    <title>Hastaraj Rai | Frontend Developer in Japan — JLPT N2</title>
+    <meta name="description" content="Frontend Developer with 4+ years of professional experience, IT vocational education in Japan, and JLPT N2. JavaScript, React, responsive websites, performance and testing." />
+    <meta name="keywords" content="">
+
+    <!-- OGPタグ/twitterカード -->
+    
+    <meta property="og:title" content="Hastaraj Rai | Frontend Developer in Japan — JLPT N2" />
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Frontend Developer with 4+ years of professional experience, IT vocational education in Japan, and JLPT N2." />
+
+    <meta name="twitter:site" content="" />
+    <meta property="og:site_name" content="Hastaraj Rai" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="fb:app_id" content="" />
+
+    <!-- canonical -->
+  
+
+    <!-- ファビコン -->
+    <link rel="icon" href="画像URL" sizes="16x16" type="image/png" />
+    <link rel="icon" href="画像URL" sizes="32x32" type="image/png" />
+    <link rel="icon" href="画像URL" sizes="48x48" type="image/png" />
+    <link rel="icon" href="画像URL" sizes="62x62" type="image/png" />
+
+    <meta name="msapplication-TileColor" content="#14213d" />
+    <meta name="theme-color" content="#14213d">
+
+    <!-- CSS/JS -->
+    <link rel="stylesheet" href="./assets/css/app.css" media="all" />
+
+
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- HEADER  -->
+    <header class="header" id="header">
+        <div class="container header__wrapper">
+            <a class="header__logo" href="#main">Hastaraj<span class="header__dot">.</span>Rai</a>
+            <button class="header__toggle" id="js-navIcon" type="button" aria-label="Open menu">Menu</button>
+            <nav class="nav" id="js-nav">
+                <a class="nav__link js-navLink" href="#about">About</a>
+                <a class="nav__link js-navLink" href="#toolkit">Toolkit</a>
+                <a class="nav__link js-navLink" href="#work">Work</a>
+                <a class="nav__link js-navLink" href="#journey">Journey</a>
+                <a class="nav__link js-navLink" href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
 
 <main class="main" id="main">
 
@@ -253,4 +314,18 @@
 
 </main>
 
-@@include('@@webRoot/parts/footer.html')
+<!-- SCROLL-TO-TOP -->
+<a class="scroll-to-top" id="js-scrollToTop" href="#" aria-label="Scroll to top"></a>
+
+<!-- FOOTER -->
+<footer class="footer" id="footer">
+    <div class="container">
+        © <span id="js-year"></span> Hastaraj Rai — Frontend Developer
+    </div>
+</footer>
+<!-- JS -->
+<script src="./assets/js/app.js"></script>
+</body>
+
+</html>
+
